@@ -1,0 +1,29 @@
+Libro;Introducción a la Programación;978-0-123-45678-9;Luis Fernández;Sí;20/06/2019;Una guía completa sobre los fundamentos de la programación.
+Revista;Revista de Tecnología;978-1-23-456789-1;Laura Sánchez;Sí;Julio;4 
+Libro;Historia Universal;978-0-987-65432-1;José Pérez;Sí;15/02/2018;Exploración detallada de la historia desde la antigüedad hasta la actualidad.
+Revista;Revista de Ciencias;978-1-23-456789-2;Pedro González;Sí;Agosto;8
+Libro;El Arte de la Guerra;978-0-321-65498-7;Ana Martínez;Sí;10/11/2015;Un clásico sobre estrategias y tácticas militares.
+Revista;Revista de Salud;978-1-23-456789-3;Carla López;Sí;Mayo;12
+Libro;Física para Todos;978-0-123-45678-8;Roberto Díaz;Sí;22/09/2021;Conceptos básicos de física explicados de manera sencilla.
+Revista;Revista de Literatura;978-1-23-456789-4;Gabriela Morales;Sí;Noviembre;6
+Libro;Cocina Internacional;978-0-987-65432-2;Jorge Silva;Sí;01/12/2020;Recetas y técnicas de cocina de todo el mundo.
+Revista;Revista de Arte;978-1-23-456789-5;Isabel Fernández;Sí;Febrero;3
+Libro;Teoría de la Relatividad;978-0-654-32198-7;Miguel Ruiz;Sí;18/04/2017;Explicación detallada de la teoría de Einstein.
+Revista;Revista de Moda;978-1-23-456789-6;Sofía Hernández;Sí;Septiembre;15
+Libro;Matemáticas Avanzadas;978-0-321-65432-8;Andrés Gómez;Sí;25/05/2022;Problemas y soluciones en matemáticas avanzadas.
+Revista;Revista de Música;978-1-23-456789-7;Martín López;No;Diciembre;7
+Libro;Introducción a la Filosofía;978-0-987-65432-3;Carmen Pérez;Sí;30/10/2019;Un recorrido por los principales conceptos filosóficos.
+Revista;Revista de Cine;978-1-23-456789-8;Alejandra Ruiz;Sí;Marzo;10
+Libro;Biología para Principiantes;978-0-123-45678-7;Luis Martínez;Sí;17/06/2021;Conceptos básicos de biología para estudiantes.
+Revista;Revista de Historia;978-1-23-456789-9;Ricardo Sánchez;Sí;Enero;9
+Libro;La Psicología del Desarrollo;978-0-987-65432-4;Elena González;Sí;12/08/2020;Estudio de los cambios psicológicos a lo largo de la vida.
+Revista;Revista de Tecnología e Innovación;978-1-23-456789-0;Rosa Martínez;Sí;Noviembre;5
+Libro;Fundamentos de Electrónica;978-0-123-45678-6;Víctor Fernández;Sí;03/03/2018;Introducción a los conceptos básicos de electrónica.
+Libro;Astronomía para Todos;978-0-987-65432-5;Martina Gómez;Sí;21/01/2022;Un acercamiento a la astronomía para el público general.
+Libro;El Mundo de los Insectos;978-0-321-65432-9;Silvia López;Sí;29/07/2019;Una guía completa sobre el reino de los insectos.
+Libro;La Evolución Humana;978-0-987-65432-6;Álvaro Ruiz;Sí;15/11/2017;Exploración de la evolución y desarrollo de la especie humana.
+Libro;Química Básica;978-0-123-45678-5;Luis Auditore;Sí;22/05/2021;Fundamentos de la química para principiantes.
+Libro;La metamorfosis;978-0-123-45678-10;Franz Kafka;No;01/09/1915;Gregorio samsa se vuelve un insecto
+Revista;Forbes;978-1-23-456789-10;Matt Craig;No;01/07/2024;90
+Libro;Juego de tronos;978-1-25-456789-10;George R. R. Martin;No;01/08/1996;Algo de reinos y dragones
+Revista;Revista de juegos;978-7-23-456789-0;Faker;No;Diciembre;10
