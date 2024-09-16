@@ -127,7 +127,7 @@ string Sistema :: mostrarUsuario(string nombre, string id, bool tipo)
 
             tieneMaterial = true;
 
-            entregar += "Titulo: " + material[i] -> getNombre()  + ", " + "Isbn: " + material[i] -> getIsbn() + "\n";
+            entregar += "Titulo: " + material[i] -> getTitulo()  + ", " + "Isbn: " + material[i] -> getIsbn() + "\n";
         }
     }
     
@@ -254,7 +254,7 @@ string Sistema :: devolucion(string persona,string id ,string titulo, string isb
         materialEncontrado -> setEstado(false);
         return "El material fue eliminado correctamente de su cuenta";
     }
-    return "No tiene ningun material que devolver";
+    return "No tiene ningun material que devolver o el material no es de este usuario";
 }
 
 string Sistema :: crearEliminar(string nombre, string id, int modo)

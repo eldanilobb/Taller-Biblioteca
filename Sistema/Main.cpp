@@ -8,6 +8,12 @@ void menuBusquedaMaterial(Sistema* sistema);
 void menuPrestamosyDevoluciones(Sistema* sistema);
 void menuUsuarios(Sistema* sistema);
 
+/** 
+ * En la funcion main se inicializa el sistema mandando a cargar los archivos de biblioteca y de usuarios, se encarga de manejar 
+ * el menu principal para luego derivar a los demas menus realizando llamados a sus funciones segun lo pida el usuario 
+ * (la persona que ejecuta el codigo) esta termina una vez en el menu principal se seleccione el 0 cerrando asi el ciclo 
+ * y mandando a destruir al sistema. 
+*/
 int main()
 {
     Sistema* sys = new Sistema();
@@ -62,6 +68,10 @@ int main()
     return 0;
 }
 
+/** 
+ * Este menu es el encargado de realizar las preguntas necesarias para la creacion de los diferentes 
+ * materiales disponibles, realiza llamados a agregarLibro y agregarRevista (funciones del sistema) segun corresponda
+*/
 void menuMaterial(Sistema* sistema)
 {
     int opcion;
@@ -127,6 +137,10 @@ void menuMaterial(Sistema* sistema)
     }
 }
 
+/** 
+ * Este menu se encarga de hacer preguntas al usuario para poder identificar cual es el material que esta buscando para asi
+ * poder mostrarlo por pantalla (esto lo logra llamando a la funcion buscarMaterialExterno del sistema)
+*/
 void menuBusquedaMaterial(Sistema* sistema)
 {
     int opcion;
@@ -171,10 +185,13 @@ void menuBusquedaMaterial(Sistema* sistema)
     }
 }
 
+/** 
+ * Este menu se encarga de pedir los datos del usuario y los de un material para poder realizar el prestamo a este mismo usuario
+ * o la devolucion de un material que ya tenga, esta funcion hace llamados a prestamo y a devolucion (funciones del sistema)
+*/
 void menuPrestamosyDevoluciones(Sistema* sistema)
 {
     int opcion1;
-    int opcion2;
     string nombre;
     string variable;
 
@@ -210,6 +227,10 @@ void menuPrestamosyDevoluciones(Sistema* sistema)
     
 }
 
+/** 
+ * Esta funcion es como un modo de administracion en la que se puede pedir crear, buscar y eliminar usuarios aparte de poder modificar 
+ * los materiales de estos, esto lo logra llamando a las funciones del sistema crearEliminar, mostrarUsuario, prestamo y devolucion  
+*/
 void menuUsuarios (Sistema* sistema)
 {
     int opcion;

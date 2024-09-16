@@ -3,8 +3,6 @@ using namespace std;
 
 #include "MaterialBibliografico.h"
 
-MaterialBibliografico :: MaterialBibliografico(){}
-
 MaterialBibliografico :: MaterialBibliografico (string nombre, string isbn, string autor, bool prestado)
 {
     this->nombre = nombre;
@@ -22,7 +20,6 @@ void MaterialBibliografico :: mostrarInformacion() const
 }
 string MaterialBibliografico :: getIsbn() {return isbn;}
 bool MaterialBibliografico :: getEstado() {return prestado;}
-string MaterialBibliografico :: getNombre() {return nombre;}
 void MaterialBibliografico :: setEstado(bool estado) {this -> prestado = estado;}
 string MaterialBibliografico :: getTitulo() {return nombre;}
 string MaterialBibliografico :: getAutor() {return autor;}
